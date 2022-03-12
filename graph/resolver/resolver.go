@@ -1,4 +1,4 @@
-package graph
+package resolver
 
 import "github.com/MatsuoTakuro/gqlgen-todos/graph/model"
 

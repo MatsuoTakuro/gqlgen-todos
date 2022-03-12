@@ -1,0 +1,19 @@
+
+type Todo {
+  id: ID!
+  text: String!
+  done: Boolean!
+  user: User!
+  tag:  [Tag!]!
+}
+
+type Tag {
+  id: ID!
+  name: String!
+}
+
+type User {
+  id: ID!
+  name: String!
+  friends: [User!]!
+}
