@@ -15,5 +15,4 @@ type Tag {
 type User {
   id: ID!
   name: String!
-  friends: [User!]!
 }
