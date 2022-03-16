@@ -1,5 +1,7 @@
 package resolver
 
+//go:generate go run github.com/99designs/gqlgen generate
+
 import "github.com/MatsuoTakuro/gqlgen-todos/graph/model"
 
 // This file will not be regenerated automatically.
